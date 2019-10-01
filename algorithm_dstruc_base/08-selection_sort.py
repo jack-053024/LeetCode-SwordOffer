@@ -16,6 +16,10 @@ def select_sort(alist):
                 min_index = i
         alist[j], alist[min_index] = alist[min_index], alist[j]
 
+    # 时间复杂度：O(n^2)
+    # 空间复杂度：O(1)
+    # 稳定性：不稳定（假定选的是最大值）
+
 
 
 if __name__ == '__main__':
