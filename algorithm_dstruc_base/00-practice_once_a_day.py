@@ -21,6 +21,7 @@ def quick_sort(alist, start, end):
 
 
 
+
 if __name__ == '__main__':
     alist = [54, 226, 93, 17, 77, 31, 44, 55, 20]
     alist_len = len(alist)
