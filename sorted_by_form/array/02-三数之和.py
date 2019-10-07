@@ -1,5 +1,4 @@
 # coding:utf-8
-
 # question:
 # 给定一个包含 n 个整数的数组 nums，判断 nums 中是否存在三个元素 a，b，c ，
 # 使得 a + b + c = 0，找出所有满足条件且不重复的三元组。
@@ -18,7 +17,6 @@ class Solution:
         # 9.如果小于0，则i+=1，同时注意避免重复组合
         # 10.等于0，则保存i、j、k对应值到res，同时移动i、j，注意避免重复组合
         # 11.直到i=j，结束一个循环，k+1，再重新进入循环
-        # 由上述思路分析，得时间复杂度O(n^2)；空间复杂度：两个指针，常数级O(1)；
         nums.sort()
         nums_len = len(nums)
         res = []
@@ -50,6 +48,8 @@ class Solution:
                         while i < j and nums[j] == nums[j+1]:
                             j -= 1
         return res
+
+        # 由上述思路分析，得时间复杂度O(n^2)；空间复杂度：两个指针，常数级O(1)；
 
 if __name__ == '__main__':
     s = Solution()

@@ -1,8 +1,7 @@
 # coding:utf-8
-import numpy as np
-
 # question:
 # 给定一个字符串 s，找到 s 中最长的回文子串。你可以假设 s 的最大长度为 1000。
+import numpy as np
 class Solution:
     def longestPalindrome(self, s):
         '''最长回文子串----中心扩散法'''
@@ -14,7 +13,6 @@ class Solution:
         # 5.当不满足上述条件，则说明s[i+1:j]是一个回文串
         # 6.记录回文串及其长度，每次判断最长回文串，并保留，最后再返回
         # 7.边界问题：当s为''时，返回''
-        # 由上述分析：时间复杂度为O(n^2)，空间复杂度为O(1)
         if s == '':
             return s  # 如果只有return，则返回None，但是应该返回''才对
         s_len = len(s)
@@ -39,13 +37,14 @@ class Solution:
                 ans = s[i+1:j]
         return ans
 
+        # 由上述分析：时间复杂度为O(n^2)，空间复杂度为O(1)
+
     def longestPalindrome01(self, s):
         '''最长回文子串----动态规划'''
         # 一般子结构最优，可用动态规划
         # 1.状态：dp[i, j]是否为回文串
         # 2.状态转移：dp[i, j] 取决于 dp[i+1, j-1]与s[i] == s[j]
         # 注意转移函数：dp[i, j] = (dp[i+1, j-1] or j - i <= 2) and s[i] == s[j]
-        # 经上述分析：时间复杂度O(n^2)，空间复杂度O(n^2)
         s_len = len(s)
         if s_len <= 1:
             return s
@@ -60,6 +59,8 @@ class Solution:
                         ans_len = j - i + 1
                         ans = s[i:j+1]  # 切片，用冒号
         return ans
+
+        # 经上述分析：时间复杂度O(n^2)，空间复杂度O(n^2)
 
 
 if __name__ == '__main__':

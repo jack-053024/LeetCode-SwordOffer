@@ -1,10 +1,8 @@
 # coding:utf-8
-
-import numpy as np
-
 # 给定一个数组和一个target值，
 # 如果可以从数组中取出任意个数的数并相加使其等于target，
 # 则返回True，否则，返回False
+import numpy as np
 def rec_subset(arr, i, target):
     '''递归'''
     if target == 0:
