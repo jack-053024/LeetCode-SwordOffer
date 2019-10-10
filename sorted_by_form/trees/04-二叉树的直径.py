@@ -4,7 +4,7 @@
 # 求给定二叉树的直径
 class Solution:
     def diameterOfBinaryTree(self, root: TreeNode) -> int:
-        '''求给定二叉树的直径'''
+        '''二叉树的直径----递归--easy'''
         # 1.二叉树的直径可看做左右两个子树的深度和再加1
         # 2.所以需要先求单边的深度，常规求法，使用递归
         # 3.定义一个self.ans保存深度（最大值）

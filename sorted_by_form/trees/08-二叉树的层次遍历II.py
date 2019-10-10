@@ -4,7 +4,7 @@
 # （即按从叶子节点所在层到根节点所在的层，逐层从左向右遍历
 class Solution:
     def levelOrderBottom(self, root: TreeNode) -> List[List[int]]:
-        '''二叉树的层次遍历----广度优先遍历'''
+        '''二叉树的层次遍历----广度优先遍历--easy'''
         # 1.使用广度优先遍历思想，但是需要记录每次的层次
         # 2.每层的值，需要用列表存起来，遍历完每层后，把列表insert到结果列表的头部
         # 3.考虑特殊情况：①root为None；

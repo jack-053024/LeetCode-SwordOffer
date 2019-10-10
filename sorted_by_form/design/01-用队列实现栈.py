@@ -12,7 +12,7 @@
 # 你可以假设所有操作都是有效的（例如, 对一个空的栈不会调用 pop 或者 top 操作）。
 from collections import deque
 class MyStack:
-    '''用队列实现栈----双端队列collections库内的deque'''
+    '''用队列实现栈----双端队列collections库内的deque--easy'''
     def __init__(self):
         self.__queue = deque()
 

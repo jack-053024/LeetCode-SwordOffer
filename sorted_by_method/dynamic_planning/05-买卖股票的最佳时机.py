@@ -6,7 +6,7 @@
 import numpy as np
 class Solution:
     def maxProfit(self, prices: List[int]) -> int:
-        '''买卖股票的最佳时机----动态规划(一维DP)'''
+        '''买卖股票的最佳时机----动态规划(一维DP)--easy'''
         # 1.状态：第几天，是否持有
         # 2.状态转移：
         # 未持有=前一天未持有且不买 or 前一天持有但卖出

@@ -3,7 +3,7 @@
 # 给定一个无序的整数数组，找到其中最长上升子序列的长度。
 class Solution:
     def lengthOfLIS(self, nums):
-        '''最大上升子序列----动态规划'''
+        '''最大上升子序列----动态规划--medium'''
         # state：nums有i+1个值
         # update func：dp[i] = max[dpi], dp[j]+1)
         # base case: one, nums is None; two, nums has only one elem

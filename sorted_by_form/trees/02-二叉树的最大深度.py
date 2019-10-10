@@ -11,6 +11,7 @@
 
 class Solution:
     def maxDepth(self, root: TreeNode) -> int:
+        '''二叉树的最大深度----递归--easy'''
         # 1.先判断二叉树是否为空，如果为空，直接返回0
         # 2.使用递归，调用原方法maxDepth分别计算左右子树的高度
         # 3.取左右子树高度的最大值加1

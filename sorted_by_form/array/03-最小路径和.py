@@ -5,7 +5,7 @@
 # 说明：每次只能向下或者向右移动一步。
 class Solution:
     def minPathSum(self, grid: List[List[int]]) -> int:
-        '''最小路径和----动态规划'''
+        '''最小路径和----动态规划--medium'''
         # 1.状态：现在在第m行、第n列处
         # 2.状态转移：从第m-1行、第n列 or 从第m行、第n-1列
         # dp[m][n] = min(dp[m-1][n], dp[m][n-1]) + grid[m][n]

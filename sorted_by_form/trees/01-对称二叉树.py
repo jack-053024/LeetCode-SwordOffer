@@ -13,7 +13,7 @@ class TreeNode:
 
 class Solution:
     def isSymmetric(self, root: TreeNode) -> bool:
-        '''判断给定的二叉树是否是对称的'''
+        '''对称二叉树----递归--easy'''
         # 1.对称说明是二叉树呈镜像，则其要满足的条件为：
         # ①节点的左右子节点的值相同
         # ②左子节点的左子节点的值等于右子节点的右子节点的值

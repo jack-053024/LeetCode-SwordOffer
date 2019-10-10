@@ -8,7 +8,7 @@
 # 要求：时间复杂度为O(1)
 from collections import OrderedDict
 class LRUCache(object):
-    '''LRU缓冲机制----哈希表、双向链表'''
+    '''LRU缓冲机制----哈希表、双向链表--medium'''
     # 1.题目中的缓冲数据为KV映射形式，可以用字典, dictionay is disordered
     # 2.最新访问、新添加和久不访问的需要分开, use queue
     # 3.queue should has the functions:

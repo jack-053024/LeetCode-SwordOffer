@@ -6,7 +6,7 @@
 # 那么将他们的值相加作为节点合并后的新值，否则不为 NULL 的节点将直接作为新二叉树的节点
 class Solution:
     def mergeTrees(self, t1: TreeNode, t2: TreeNode) -> TreeNode:  # 类型注释
-        '''merge Binary Tree'''
+        '''merge Binary Tree----递归--easy'''
         # 1.如果两棵树都为空，则直接返回None
         # 2.如果两棵树都不为空，则合并
         # 3.如果两棵树其中有一棵为空，则直接返回不为空的树

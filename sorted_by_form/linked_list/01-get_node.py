@@ -9,7 +9,7 @@ class Node(object):
         self.next = None
 
 class SingleList(object):
-    '''单链表'''
+    '''单链表----双指针----easy'''
     def __init__(self, node=Node(1)):
         self.__head = node
         for i in range(2, 8):

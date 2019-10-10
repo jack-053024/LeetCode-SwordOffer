@@ -4,7 +4,7 @@
 import numpy as np
 class Solution:
     def longestPalindrome(self, s):
-        '''最长回文子串----中心扩散法'''
+        '''最长回文子串----中心扩散法--medium'''
         # 对称问题可考虑中心扩散法
         # 1.回文串分为奇偶回文串，所以需要考虑奇偶两种情况
         # 2.遍历每一个元素，并以每个元素为中心，向两边扩散，
