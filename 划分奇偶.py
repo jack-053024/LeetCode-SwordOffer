@@ -1,11 +1,10 @@
 # coding:utf-8
-
 # 输入一个无序整数数组，调整数组中数字的顺序，
 # 所有偶数位于数组的前半部分，使得所有奇数位于数组的后半部分。
 # 要求时间复杂度为O(n)。
+# Difficulty: easy
 def dividing_parity(alist):
-    '''划分奇偶'''
-    # 使用快排思想
+    '''quick sorting thought'''
     # 先把数组中的第一个数存放起来，并定义两个游标
     alist_len = len(alist)
     temp = alist[0]
@@ -21,7 +20,6 @@ def dividing_parity(alist):
             low += 1
         alist[high] = alist[low]
     alist[low] = temp
-
 
 if __name__ == '__main__':
     alist = input().split(' ')

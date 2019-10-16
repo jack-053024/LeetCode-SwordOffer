@@ -1,7 +1,7 @@
 # coding:utf-8
 
 def quick_sort(alist, first, last):
-    '''快速排序'''
+    '''快速排序-不稳定排序-最坏为O(n^2)-最优为O(nlogn)'''
     if first >= last:
         return
     mid_value = alist[first]

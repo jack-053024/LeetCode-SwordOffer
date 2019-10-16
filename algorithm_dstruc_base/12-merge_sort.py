@@ -1,7 +1,7 @@
 # coding:utf-8
 
 def merge_sort(alist):
-    '''并归排序'''
+    '''并归排序-稳定排序-时间复杂度为线性对数阶'''
     if len(alist) <= 1:
         return alist
     alist_len = len(alist)

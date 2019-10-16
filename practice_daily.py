@@ -1,25 +1,22 @@
 # coding:utf-8
 
 def quick_sort(alist, start, end):
-    '''快速排序'''
-    if start >= end:
+    '''quick sortion'''
+    if start > end:
         return
     mid_val = alist[start]
     low = start
     high = end
     while low < high:
-        while low < high and alist[high] > mid_val:
+        while low < high and alist[high] >= mid_val:
             high -= 1
         alist[low] = alist[high]
         while low < high and alist[low] < mid_val:
             low += 1
         alist[high] = alist[low]
     alist[low] = mid_val
-
     quick_sort(alist, start, low-1)
     quick_sort(alist, low+1, end)
-
-
 
 
 if __name__ == '__main__':

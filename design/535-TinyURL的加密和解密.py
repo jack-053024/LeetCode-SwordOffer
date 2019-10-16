@@ -6,9 +6,10 @@
 # 要求：设计一个 TinyURL 的加密 encode 和解密 decode 的方法。
 # 你的加密和解密算法如何设计和运作是没有限制的，
 # 你只需要保证一个URL可以被加密成一个TinyURL，并且这个TinyURL可以用解密方法恢复成原本的URL。
+# Difficulty: medium
 from random import sample
 class Codec:
-    '''TinyURL的加密和解密----哈希表--medium'''
+    '''hash map'''
     # 1.定义字典，作为映射；编码时，将编码后的URL和原URL作为键值对添加到字典中
     # 2.解码时，根据传入的URL去字典中查找，返回对应的值
     # 3.编码加密使用固定长的随机字符，如果产生了相同的随机字符，则令其重新生成，直到不同为止；

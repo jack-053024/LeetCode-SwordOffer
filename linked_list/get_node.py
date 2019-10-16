@@ -2,6 +2,7 @@
 
 # 找出单向链表中的一个节点，该节点到尾指针的距离为K。
 # 链表的倒数第0个结点为链表的尾指针。要求时间复杂度为O(n)。
+# Difficulty: easy
 class Node(object):
     '''节点'''
     def __init__(self, elem):
@@ -9,7 +10,7 @@ class Node(object):
         self.next = None
 
 class SingleList(object):
-    '''单链表----双指针----easy'''
+    '''double pointer'''
     def __init__(self, node=Node(1)):
         self.__head = node
         for i in range(2, 8):

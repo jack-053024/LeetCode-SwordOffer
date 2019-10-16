@@ -6,9 +6,10 @@
 # 写入数据 put(key, value) - 如果密钥不存在，则写入其数据值。
 # 当缓存容量达到上限时，它应该在写入新数据之前删除最近最少使用的数据值，从而为新的数据值留出空间。
 # 要求：时间复杂度为O(1)
+# Difficulty: medium
 from collections import OrderedDict
 class LRUCache(object):
-    '''LRU缓冲机制----哈希表、双向链表--medium'''
+    '''哈希表、双向链表'''
     # 1.题目中的缓冲数据为KV映射形式，可以用字典, dictionay is disordered
     # 2.最新访问、新添加和久不访问的需要分开, use queue
     # 3.queue should has the functions:
