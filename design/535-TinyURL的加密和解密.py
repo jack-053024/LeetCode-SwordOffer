@@ -1,6 +1,5 @@
 # coding: utf-8
-# question:
-# TinyURL是一种URL简化服务，
+# TinyURL是一种 URL 简化服务，
 # 比如：当你输入一个URL https://leetcode.com/problems/design-tinyurl 时，
 # 它将返回一个简化的URL http://tinyurl.com/4e9iAk.
 # 要求：设计一个 TinyURL 的加密 encode 和解密 decode 的方法。

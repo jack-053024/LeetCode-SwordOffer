@@ -5,8 +5,9 @@
 # 1. 左括号必须用相同类型的右括号闭合。
 # 2. 左括号必须以正确的顺序闭合。
 # 注意空字符串可被认为是有效字符串。
+# Difficulty: medium
 def is_valid(s):
-    '''有效的括号----栈、哈希表--medium'''
+    '''stack and hash map'''
     # 使用栈
     # 1.基于一个有效的字符串，其子字符串也有效
     # 2.定义一个栈，遍历字符串的每一个符号，将开符号入栈，遇到闭符号，
@@ -23,15 +24,12 @@ def is_valid(s):
         if char in mapping.values():
             stack.append(char)
         elif char in mapping:
-            if stack:  # 避免栈为空是，stack[-1]报错
+            if stack:  # 避免栈为空时，stack[-1]报错
                 if stack[-1] == mapping[char]:
                     stack.pop()
                 else:
                     return False
             else:
                 return False
-    if stack:
-        return False
-    else:
-        return True
+    return not stack
 

@@ -2,22 +2,21 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8c4812b9-5060-4a8a-9f8e-dd5845bc0bd8" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/dictionaries/98594.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/linked_list/141-环形链表.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/linked_list/19-删除链表的倒数第N个节点.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/design/155-最小栈.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/linked_list/876-链表的中间结点.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/stack-typical_application/224-基本计算器.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/stack-typical_application/496-下一个更大元素I.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/stack-typical_application/682-棒球比赛.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/stack-typical_application/844-比较含退格的字符串.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/多多的乘法游戏II.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/多多的括号序列.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/02-将奇数偶数分两边.py" beforeDir="false" afterPath="$PROJECT_DIR$/划分奇偶.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/algorithm_dstruc_base/11-quick_sort01.py" beforeDir="false" afterPath="$PROJECT_DIR$/algorithm_dstruc_base/11-quick_sort.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/algorithm_dstruc_base/12-merge_sort.py" beforeDir="false" afterPath="$PROJECT_DIR$/algorithm_dstruc_base/12-merge_sort.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/array/06-最长公共子序列.py" beforeDir="false" afterPath="$PROJECT_DIR$/array/1143-最长公共子序列.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/design/01-用队列实现栈.py" beforeDir="false" afterPath="$PROJECT_DIR$/design/225-用队列实现栈.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/design/02-TinyURL的加密和解密.py" beforeDir="false" afterPath="$PROJECT_DIR$/design/535-TinyURL的加密和解密.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/design/03-LRU缓冲机制.py" beforeDir="false" afterPath="$PROJECT_DIR$/design/146-LRU缓冲机制.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/linked_list/01-get_node.py" beforeDir="false" afterPath="$PROJECT_DIR$/linked_list/get_node.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/linked_list/02-反转单链表.py" beforeDir="false" afterPath="$PROJECT_DIR$/linked_list/206-反转链表.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/linked_list/03-合并两个有序的单链表.py" beforeDir="false" afterPath="$PROJECT_DIR$/linked_list/21-合并两个有序链表.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/linked_list/04-从尾到头打印链表.py" beforeDir="false" afterPath="$PROJECT_DIR$/linked_list/从尾到头打印链表.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/practice_daily.py" beforeDir="false" afterPath="$PROJECT_DIR$/practice_daily.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/design/535-TinyURL的加密和解密.py" beforeDir="false" afterPath="$PROJECT_DIR$/design/535-TinyURL的加密和解密.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/stock_trading/01-买卖股票的最佳时机.py" beforeDir="false" afterPath="$PROJECT_DIR$/stock_trade/01-买卖股票的最佳时机.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/stock_trading/06-买卖股票的最佳时机II.py" beforeDir="false" afterPath="$PROJECT_DIR$/stock_trade/06-买卖股票的最佳时机II.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/string/01-有效的括号.py" beforeDir="false" afterPath="$PROJECT_DIR$/stack-typical_application/01-有效的括号.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/string/07-括号生成.py" beforeDir="false" afterPath="$PROJECT_DIR$/string/07-括号生成.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/划分奇偶.py" beforeDir="false" afterPath="$PROJECT_DIR$/array/划分奇偶.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -66,22 +65,22 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="settings.editor.selected.configurable" value="com.maddyhome.idea.vim.ui.VimEmulationConfigurable" />
+    <property name="settings.editor.selected.configurable" value="preferences.general" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\PythonProjects\LeetCode-SwordOffer\stack" />
+      <recent name="E:\PythonProjects\LeetCode-SwordOffer\design" />
+      <recent name="E:\PythonProjects\LeetCode-SwordOffer\array" />
+      <recent name="E:\PythonProjects\LeetCode-SwordOffer" />
+      <recent name="E:\PythonProjects\LeetCode-SwordOffer\sorted_by_form\stock_trading" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="E:\PythonProjects\LeetCode-SwordOffer\sorted_by_method\dynamic_planning\medium" />
       <recent name="E:\PythonProjects\LeetCode-SwordOffer\sorted_by_method\hash_table\medium" />
       <recent name="E:\PythonProjects\LeetCode-SwordOffer\sorted_by_method\hash_table" />
       <recent name="E:\PythonProjects\LeetCode-SwordOffer\sorted_by_form\stock_trading" />
       <recent name="E:\PythonProjects\LeetCode-SwordOffer\sorted_by_method\depth_first_traversal" />
-    </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="E:\PythonProjects\LeetCode-SwordOffer" />
-      <recent name="E:\PythonProjects\LeetCode-SwordOffer\sorted_by_form\stock_trading" />
-      <recent name="E:\PythonProjects\LeetCode-SwordOffer\sorted_by_form\string" />
-      <recent name="E:\PythonProjects\LeetCode-SwordOffer\sorted_by_method\dynamic_planning" />
-      <recent name="E:\PythonProjects\LeetCode-SwordOffer\sorted_by_form\trees" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -96,7 +95,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.practice_daily">
+  <component name="RunManager" selected="Python.682-棒球比赛">
     <configuration default="true" type="DjangoTestsConfigurationType">
       <module name="practice" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -184,28 +183,6 @@
       <option name="EMULATE_TERMINAL" value="false" />
       <method />
     </configuration>
-    <configuration name="03-无重复字符的最长子串" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="practice" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/string" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/string/03-无重复字符的最长子串.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
     <configuration name="05-最长的连续公共子串" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="LeetCode-SwordOffer" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -220,6 +197,50 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/sorted_by_form/array/05-最长的连续公共子串.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="682-棒球比赛" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="LeetCode-SwordOffer" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/stack-typical_application" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/stack-typical_application/682-棒球比赛.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="844-比较含退格的字符串" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="LeetCode-SwordOffer" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/string" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="E:\PythonProjects\LeetCode-SwordOffer\stack\844-比较含退格的字符串.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -328,17 +349,19 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Python.03-无重复字符的最长子串" />
       <item itemvalue="Python.01-最大上升子序列" />
       <item itemvalue="Python.05-最长的连续公共子串" />
       <item itemvalue="Python.practice_daily" />
+      <item itemvalue="Python.844-比较含退格的字符串" />
+      <item itemvalue="Python.682-棒球比赛" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.682-棒球比赛" />
+        <item itemvalue="Python.844-比较含退格的字符串" />
         <item itemvalue="Python.practice_daily" />
         <item itemvalue="Python.05-最长的连续公共子串" />
         <item itemvalue="Python.01-最大上升子序列" />
-        <item itemvalue="Python.03-无重复字符的最长子串" />
       </list>
     </recent_temporary>
   </component>
@@ -357,7 +380,13 @@
       <workItem from="1571215890058" duration="155000" />
       <workItem from="1571216067421" duration="181000" />
       <workItem from="1571216271895" duration="79000" />
-      <workItem from="1571216371747" duration="8126000" />
+      <workItem from="1571216371747" duration="8318000" />
+      <workItem from="1571283146996" duration="6444000" />
+      <workItem from="1571367435850" duration="2374000" />
+      <workItem from="1571488977725" duration="3508000" />
+      <workItem from="1571504898680" duration="525000" />
+      <workItem from="1571539980852" duration="6591000" />
+      <workItem from="1571577851426" duration="3808000" />
     </task>
     <servers />
   </component>
@@ -381,7 +410,7 @@
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/划分奇偶.py</url>
+          <url>file://$PROJECT_DIR$/array/划分奇偶.py</url>
           <line>24</line>
           <option name="timeStamp" value="2" />
         </line-breakpoint>
@@ -395,7 +424,16 @@
           <line>23</line>
           <option name="timeStamp" value="7" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/stack-typical_application/682-棒球比赛.py</url>
+          <line>27</line>
+          <option name="timeStamp" value="8" />
+        </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/LeetCode_SwordOffer$844_.coverage" NAME="844-比较含退格的字符串 Coverage Results" MODIFIED="1571542935917" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/string" />
+    <SUITE FILE_PATH="coverage/LeetCode_SwordOffer$682_.coverage" NAME="682-棒球比赛 Coverage Results" MODIFIED="1571579597445" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/stack-typical_application" />
   </component>
 </project>
