@@ -1,5 +1,3 @@
-# coding:utf-8
-
 def shell_sort(alist):
     '''希尔排序'''
     alist_len = len(alist)

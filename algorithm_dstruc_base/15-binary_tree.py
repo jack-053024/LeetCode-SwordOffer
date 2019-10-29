@@ -1,5 +1,3 @@
-# coding:utf-8
-
 class Node(object):
     '''二叉树节点'''
     def __init__(self, item):

@@ -1,9 +1,7 @@
-# coding:utf-8
-
 class Queue(object):
     '''队列'''
     def __init__(self):
-        self.__list = []  # python中的list是顺序表
+        self.__list = []  # python's list is equivalent to array
 
     def is_empty(self):
         '''判空'''
@@ -30,3 +28,4 @@ if __name__ == '__main__':
     print(queue.dequeue())
     print(queue.dequeue())
     print(queue.dequeue())
+

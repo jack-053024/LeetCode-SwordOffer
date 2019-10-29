@@ -1,5 +1,3 @@
-# coding:utf-8
-
 def binary_search(alist, item):
     '''二分查找--递归实现'''
     # 二分查找只能作用的对象必须满足两个条件：

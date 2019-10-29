@@ -1,5 +1,3 @@
-# coding:utf-8
-
 def binary_search(alist, item):
     '''二分查找--no recursive'''
     alist_len = len(alist)

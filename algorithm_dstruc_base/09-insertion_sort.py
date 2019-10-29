@@ -1,5 +1,3 @@
-# coding:utf-8
-
 def insert_sort(alist):
     '''插入排序'''
     # alist_len = len(alist)

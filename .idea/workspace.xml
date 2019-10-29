@@ -2,21 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8c4812b9-5060-4a8a-9f8e-dd5845bc0bd8" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/design/155-最小栈.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/linked_list/876-链表的中间结点.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/stack-typical_application/224-基本计算器.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/stack-typical_application/496-下一个更大元素I.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/stack-typical_application/682-棒球比赛.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/stack-typical_application/844-比较含退格的字符串.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/多多的乘法游戏II.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/多多的括号序列.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/design/535-TinyURL的加密和解密.py" beforeDir="false" afterPath="$PROJECT_DIR$/design/535-TinyURL的加密和解密.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/stock_trading/01-买卖股票的最佳时机.py" beforeDir="false" afterPath="$PROJECT_DIR$/stock_trade/01-买卖股票的最佳时机.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/stock_trading/06-买卖股票的最佳时机II.py" beforeDir="false" afterPath="$PROJECT_DIR$/stock_trade/06-买卖股票的最佳时机II.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/string/01-有效的括号.py" beforeDir="false" afterPath="$PROJECT_DIR$/stack-typical_application/01-有效的括号.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/string/07-括号生成.py" beforeDir="false" afterPath="$PROJECT_DIR$/string/07-括号生成.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/划分奇偶.py" beforeDir="false" afterPath="$PROJECT_DIR$/array/划分奇偶.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/algorithm_dstruc_base/05-queue.py" beforeDir="false" afterPath="$PROJECT_DIR$/algorithm_dstruc_base/05-queue.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/algorithm_dstruc_base/06-dequeue.py" beforeDir="false" afterPath="$PROJECT_DIR$/algorithm_dstruc_base/06-deque.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -386,7 +374,10 @@
       <workItem from="1571488977725" duration="3508000" />
       <workItem from="1571504898680" duration="525000" />
       <workItem from="1571539980852" duration="6591000" />
-      <workItem from="1571577851426" duration="3808000" />
+      <workItem from="1571577851426" duration="4596000" />
+      <workItem from="1571635122827" duration="2333000" />
+      <workItem from="1571741664260" duration="9057000" />
+      <workItem from="1572332207125" duration="470000" />
     </task>
     <servers />
   </component>

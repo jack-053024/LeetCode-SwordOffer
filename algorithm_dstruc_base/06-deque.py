@@ -1,7 +1,5 @@
-# coding:utf-8
-
 class Dequeue(object):
-    '''双端队列'''
+    '''Double-end queue'''
     def __init__(self):
         self.__list = []  # python中的list是一个顺序表
 
