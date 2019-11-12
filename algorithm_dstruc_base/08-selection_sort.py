@@ -1,5 +1,3 @@
-# coding:utf-8
-
 def select_sort(alist):
     '''选择排序'''
     # 1.分成已排区和未排序区

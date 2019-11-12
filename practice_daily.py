@@ -1,14 +1,12 @@
-# coding:utf-8
-
 def quick_sort(alist, start, end):
-    '''quick sortion'''
-    if start > end:
+    """quick sort"""
+    if start >= end:
         return
     mid_val = alist[start]
     low = start
     high = end
     while low < high:
-        while low < high and alist[high] >= mid_val:
+        while low < high and alist[high] > mid_val:
             high -= 1
         alist[low] = alist[high]
         while low < high and alist[low] < mid_val:

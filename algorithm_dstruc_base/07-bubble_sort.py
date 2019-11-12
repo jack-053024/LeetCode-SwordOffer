@@ -1,6 +1,3 @@
-# coding:utf-8
-
-
 def bubble_sort(alist):  # 传入的列表alist是一个引用，所以最后不返回alist也可以
     alist_len = len(alist)
     for j in range(alist_len-1, 0, -1):
@@ -15,7 +12,7 @@ def bubble_sort(alist):  # 传入的列表alist是一个引用，所以最后不
                 alist[i], alist[i+1] = alist[i+1], alist[i]
                 count += 1
         if count == 0:
-            return
+            return alist
     return alist
 
 
