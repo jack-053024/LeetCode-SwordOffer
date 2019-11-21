@@ -2,10 +2,17 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8c4812b9-5060-4a8a-9f8e-dd5845bc0bd8" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/BinarySearch/01-二分查找-简单非递归.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BinarySearch/02-二分查找-简单递归.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BinarySearch/03-二分查找-第一个等于target的元素.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BinarySearch/04-二分查找-最后一个等于target的元素.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BinarySearch/05-二分查找-第一个大于等于target的元素.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BinarySearch/06-二分查找-最后一个小于等于target的元素.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/array/数组里的第K大元素.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/algorithm_dstruc_base/07-bubble_sort.py" beforeDir="false" afterPath="$PROJECT_DIR$/algorithm_dstruc_base/07-bubble_sort.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/algorithm_dstruc_base/08-selection_sort.py" beforeDir="false" afterPath="$PROJECT_DIR$/algorithm_dstruc_base/08-selection_sort.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/algorithm_dstruc_base/09-insertion_sort.py" beforeDir="false" afterPath="$PROJECT_DIR$/algorithm_dstruc_base/09-insertion_sort.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/algorithm_dstruc_base/12-merge_sort.py" beforeDir="false" afterPath="$PROJECT_DIR$/algorithm_dstruc_base/12-merge_sort.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/array/04-两数之和.py" beforeDir="false" afterPath="$PROJECT_DIR$/array/04-两数之和.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/array/05-最长的连续公共子串.py" beforeDir="false" afterPath="$PROJECT_DIR$/array/05-最长的连续公共子串.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/practice_daily.py" beforeDir="false" afterPath="$PROJECT_DIR$/practice_daily.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -54,23 +61,23 @@
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="settings.editor.selected.configurable" value="preferences.general" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/BinarySearch" />
+    <property name="settings.editor.selected.configurable" value="fileTemplates" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\PythonProjects\LeetCode-SwordOffer\BinarySearch" />
+      <recent name="E:\PythonProjects\LeetCode-SwordOffer\sorted_by_method\dynamic_planning\medium" />
+      <recent name="E:\PythonProjects\LeetCode-SwordOffer\sorted_by_method\hash_table\medium" />
+      <recent name="E:\PythonProjects\LeetCode-SwordOffer\sorted_by_method\hash_table" />
+      <recent name="E:\PythonProjects\LeetCode-SwordOffer\sorted_by_form\stock_trading" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="E:\PythonProjects\LeetCode-SwordOffer\stack" />
       <recent name="E:\PythonProjects\LeetCode-SwordOffer\design" />
       <recent name="E:\PythonProjects\LeetCode-SwordOffer\array" />
       <recent name="E:\PythonProjects\LeetCode-SwordOffer" />
       <recent name="E:\PythonProjects\LeetCode-SwordOffer\sorted_by_form\stock_trading" />
-    </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="E:\PythonProjects\LeetCode-SwordOffer\sorted_by_method\dynamic_planning\medium" />
-      <recent name="E:\PythonProjects\LeetCode-SwordOffer\sorted_by_method\hash_table\medium" />
-      <recent name="E:\PythonProjects\LeetCode-SwordOffer\sorted_by_method\hash_table" />
-      <recent name="E:\PythonProjects\LeetCode-SwordOffer\sorted_by_form\stock_trading" />
-      <recent name="E:\PythonProjects\LeetCode-SwordOffer\sorted_by_method\depth_first_traversal" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -85,7 +92,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.practice_daily">
+  <component name="RunManager" selected="Python.06-二分查找-最后一个小于等于target的元素">
     <configuration default="true" type="DjangoTestsConfigurationType">
       <module name="practice" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -132,7 +139,7 @@
       <option name="ADDITIONAL_ARGS" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="01-查找字符最长公共子串" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="02-二分查找-简单递归" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="LeetCode-SwordOffer" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -140,12 +147,12 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/examination/pingan" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/BinarySearch" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/examination/pingan/01-查找字符最长公共子串.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/BinarySearch/02-二分查找-简单递归.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -154,7 +161,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="05-最长的连续公共子串" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="03-二分查找-找出第一个等于target的元素" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="LeetCode-SwordOffer" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -162,12 +169,12 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/sorted_by_form/array" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/BinarySearch" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/sorted_by_form/array/05-最长的连续公共子串.py" />
+      <option name="SCRIPT_NAME" value="E:\PythonProjects\LeetCode-SwordOffer\BinarySearch\03-二分查找-第一个等于target的元素.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -176,7 +183,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="09-insertion_sort" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="04-二分查找-最后一个等于target的元素" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="LeetCode-SwordOffer" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -184,12 +191,12 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/algorithm_dstruc_base" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/BinarySearch" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/algorithm_dstruc_base/09-insertion_sort.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/BinarySearch/04-二分查找-最后一个等于target的元素.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -198,7 +205,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="682-棒球比赛" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="05-二分查找-第一个大于等于target的元素" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="LeetCode-SwordOffer" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -206,12 +213,12 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/stack-typical_application" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/BinarySearch" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/stack-typical_application/682-棒球比赛.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/BinarySearch/05-二分查找-第一个大于等于target的元素.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -220,7 +227,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="844-比较含退格的字符串" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="06-二分查找-最后一个小于等于target的元素" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="LeetCode-SwordOffer" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -228,12 +235,12 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/string" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/BinarySearch" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="E:\PythonProjects\LeetCode-SwordOffer\stack\844-比较含退格的字符串.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/BinarySearch/06-二分查找-最后一个小于等于target的元素.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -256,28 +263,6 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="practice_daily" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="LeetCode-SwordOffer" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/practice_daily.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -342,20 +327,19 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Python.01-查找字符最长公共子串" />
-      <item itemvalue="Python.05-最长的连续公共子串" />
-      <item itemvalue="Python.practice_daily" />
-      <item itemvalue="Python.844-比较含退格的字符串" />
-      <item itemvalue="Python.682-棒球比赛" />
-      <item itemvalue="Python.09-insertion_sort" />
+      <item itemvalue="Python.02-二分查找-简单递归" />
+      <item itemvalue="Python.03-二分查找-找出第一个等于target的元素" />
+      <item itemvalue="Python.04-二分查找-最后一个等于target的元素" />
+      <item itemvalue="Python.05-二分查找-第一个大于等于target的元素" />
+      <item itemvalue="Python.06-二分查找-最后一个小于等于target的元素" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.practice_daily" />
-        <item itemvalue="Python.09-insertion_sort" />
-        <item itemvalue="Python.682-棒球比赛" />
-        <item itemvalue="Python.844-比较含退格的字符串" />
-        <item itemvalue="Python.05-最长的连续公共子串" />
+        <item itemvalue="Python.06-二分查找-最后一个小于等于target的元素" />
+        <item itemvalue="Python.05-二分查找-第一个大于等于target的元素" />
+        <item itemvalue="Python.04-二分查找-最后一个等于target的元素" />
+        <item itemvalue="Python.03-二分查找-找出第一个等于target的元素" />
+        <item itemvalue="Python.02-二分查找-简单递归" />
       </list>
     </recent_temporary>
   </component>
@@ -386,7 +370,11 @@
       <workItem from="1572332207125" duration="3634000" />
       <workItem from="1572880904965" duration="1756000" />
       <workItem from="1573478908633" duration="5485000" />
-      <workItem from="1573566100177" duration="237000" />
+      <workItem from="1573566100177" duration="5590000" />
+      <workItem from="1573717536308" duration="4106000" />
+      <workItem from="1573788002691" duration="7460000" />
+      <workItem from="1574144250722" duration="2477000" />
+      <workItem from="1574308302538" duration="17067000" />
     </task>
     <servers />
   </component>
@@ -438,9 +426,16 @@
     </breakpoint-manager>
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/LeetCode_SwordOffer$06__target.coverage" NAME="06-二分查找-最后一个小于等于target的元素 Coverage Results" MODIFIED="1574346177873" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/BinarySearch" />
+    <SUITE FILE_PATH="coverage/LeetCode_SwordOffer$02__.coverage" NAME="02-二分查找-简单递归 Coverage Results" MODIFIED="1574319312277" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/BinarySearch" />
     <SUITE FILE_PATH="coverage/LeetCode_SwordOffer$09_insertion_sort.coverage" NAME="09-insertion_sort Coverage Results" MODIFIED="1573486785504" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/algorithm_dstruc_base" />
+    <SUITE FILE_PATH="coverage/LeetCode_SwordOffer$K.coverage" NAME="数组里的第K大元素 Coverage Results" MODIFIED="1573735770562" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/array" />
+    <SUITE FILE_PATH="coverage/LeetCode_SwordOffer$01_simple_non_recursive.coverage" NAME="01-simple_non_recursive Coverage Results" MODIFIED="1574318090632" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/BinarySearch" />
     <SUITE FILE_PATH="coverage/LeetCode_SwordOffer$844_.coverage" NAME="844-比较含退格的字符串 Coverage Results" MODIFIED="1571542935917" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/string" />
-    <SUITE FILE_PATH="coverage/LeetCode_SwordOffer$practice_daily.coverage" NAME="practice_daily Coverage Results" MODIFIED="1573566335253" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/LeetCode_SwordOffer$practice_daily.coverage" NAME="practice_daily Coverage Results" MODIFIED="1573568783459" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/LeetCode_SwordOffer$682_.coverage" NAME="682-棒球比赛 Coverage Results" MODIFIED="1571579597445" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/stack-typical_application" />
+    <SUITE FILE_PATH="coverage/LeetCode_SwordOffer$04__target.coverage" NAME="04-二分查找-最后一个等于target的元素 Coverage Results" MODIFIED="1574339143570" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/BinarySearch" />
+    <SUITE FILE_PATH="coverage/LeetCode_SwordOffer$03__target.coverage" NAME="03-二分查找-找出第一个等于target的元素 Coverage Results" MODIFIED="1574337899013" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/BinarySearch" />
+    <SUITE FILE_PATH="coverage/LeetCode_SwordOffer$05__target.coverage" NAME="05-二分查找-第一个大于等于target的元素 Coverage Results" MODIFIED="1574345219924" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/BinarySearch" />
   </component>
 </project>

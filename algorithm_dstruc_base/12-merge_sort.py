@@ -1,5 +1,5 @@
 def merge_sort(alist):
-    '''并归排序-稳定排序-时间复杂度为线性对数阶'''
+    """merge sort"""
     if len(alist) <= 1:
         return alist
     alist_len = len(alist)
@@ -22,6 +22,7 @@ def merge_sort(alist):
     result += left_list[left_pointer:]
     result += right_list[right_pointer:]
     return result
+# analyse: stable; time complexity: O(nlogn); space complexity: O(n)
 
 
 if __name__ == '__main__':

@@ -1,25 +1,28 @@
-def quick_sort(alist, start, end):
-    """quick sort"""
-    if start >= end:
-        return
-    mid_val = alist[start]
-    low = start
-    high = end
-    while low < high:
-        while low < high and alist[high] > mid_val:
-            high -= 1
-        alist[low] = alist[high]
-        while low < high and alist[low] < mid_val:
-            low += 1
-        alist[high] = alist[low]
-    alist[low] = mid_val
-    quick_sort(alist, start, low-1)
-    quick_sort(alist, low+1, end)
+def merge_sort(alist):
+    """merge sort"""
+    alist_len = len(alist)
+    if alist_len <= 1:
+        return alist
+    mid_index = alist_len // 2
+    left_list = merge_sort(alist[:mid_index])
+    right_list = merge_sort(alist[mid_index:])
+
+    left_p, right_p = 0, 0
+    res = []
+    while left_p < len(left_list) and right_p < len(right_list):
+        if left_list[left_p] <= right_list[right_p]:
+            res.append(left_list[left_p])
+            left_p += 1
+        else:
+            res.append(right_list[right_p])
+            right_p += 1
+    res += left_list[left_p:]
+    res += right_list[right_p:]
+    return res
 
 
 if __name__ == '__main__':
     alist = [54, 226, 93, 17, 77, 31, 44, 55, 20]
-    alist_len = len(alist)
     print(alist)
-    quick_sort(alist, 0, alist_len-1)
+    alist = merge_sort(alist)
     print(alist)
