@@ -17,7 +17,7 @@ class LRUCache(object):
     # second, add the elem at the rear;
     # finally, move elem to the end;
     # according to the above, use double-end linked list to make time at O(1)
-    # In python, the class "OrderedDict" satifys the conditions
+    # In python, the class "OrderedDict" satisfys the conditions
     def __init__(self, capacity):
         """
         :type capacity: int

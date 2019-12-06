@@ -25,7 +25,7 @@ def binary_search(alist, target):
             high = mid - 1
     return -1
 """analyse:
-time complexity is O(1)
+time complexity is O(logn)
 """
 
 

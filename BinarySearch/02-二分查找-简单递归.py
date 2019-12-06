@@ -23,7 +23,7 @@ def binary_search(alist, low, high, target):
         return binary_search(alist, low, mid-1, target)
 
 """analyse
-原地查找，使用了双指针；time complexity is O(1)；
+原地查找，使用了双指针；time complexity is O(logn)；
 相比非递归，两者基本差不多，虽然递归需要调用系统栈，但由于二分查找的次数很少，
 所以哪怕规模很大的数据，也基本不会出现栈溢出；
 需要注意的是，递归终止的条件；

@@ -30,7 +30,7 @@ def binary_search(alist, target):
 
 """analyse
 该题为简单二分查找的变体形式，即数组中存在重复元素，要找出第一个等于 target 的元素；
-时间复杂度还是 O(1)，重点在于当 alist[mid] == target 时，要进一步判断是否是数组中的第一个。
+时间复杂度还是 O(logn)，重点在于当 alist[mid] == target 时，要进一步判断是否是数组中的第一个。
 """
 
 

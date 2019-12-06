@@ -1,45 +1,42 @@
 class Node(object):
-    '''二叉树节点'''
+    """the node of binary tree"""
     def __init__(self, item):
-        # 节点元素
         self.elem = item
-        # 左子节点
         self.lchild = None
-        # 右子节点
         self.rchild = None
 
 
 class BinaryTree(object):
-    '''二叉树'''
+    """binary tree"""
     def __init__(self):
         self.root = None
 
     def add(self, item):
-        # 构造节点
-        node = Node(item)
-        # 特殊情况，如果根节点就是None，则直接将新节点挂载到根节点上
-        if self.root is None:
+        node = Node(item)       # 构造节点
+        if self.root is None:   # 特殊情况，如果根节点就是None，则直接将新节点挂载到根节点上
             self.root = node
             return
+
         # 使用广度优先遍历，也叫层次遍历找到None节点以供插入
-        # 1.先用列表定义一个空队列，并先将根节点加入
-        queue = [self.root]
+        queue = [self.root]     # 1.构造空队列，并先将根节点加入
+
         # 2.如果节点不为None，则append入队列，如果为None，则直接将新节点挂上
         while True:
             cur_node = queue.pop(0)
             if cur_node.lchild is None:
                 cur_node.lchild = node
                 return
-            else:
-                queue.append(cur_node.lchild)
+            queue.append(cur_node.lchild)
             if cur_node.rchild is None:
                 cur_node.rchild = node
                 return
-            else:
-                queue.append(cur_node.rchild)
+            queue.append(cur_node.rchild)
 
-    def breadth_first_traversal(self):
-        '''广度优先遍历--层次遍历'''
+    def breadth_first_search(self):
+        """
+        广度优先遍历，也叫层次遍历
+        :return: res of search
+        """
         # 定义一个队列，把根节点先加入
         if self.root is None:
             return
@@ -52,43 +49,55 @@ class BinaryTree(object):
             if cur_node.rchild is not None:
                 queue.append(cur_node.rchild)
 
-    def preorder_traversal(self, node):
-        '''深度优先遍历之先序遍历'''
+    def preorder(self, node):
+        """
+        前序遍历
+        :param node: 待遍历树的根节点
+        :return: 遍历的结果
+        """
         if node == None:
             return
         print(node.elem, end=' ')
-        self.preorder_traversal(node.lchild)
-        self.preorder_traversal(node.rchild)
+        self.preorder(node.lchild)
+        self.preorder(node.rchild)
 
-    def in_order_traversal(self, node):
-        '''深度遍历之中序遍历'''
+    def inorder(self, node):
+        """
+        中序遍历
+        :param node: 待遍历树的根节点
+        :return: 遍历的结果
+        """
         if node == None:
             return
-        self.in_order_traversal(node.lchild)
+        self.inorder(node.lchild)
         print(node.elem, end=' ')
-        self.in_order_traversal(node.rchild)
+        self.inorder(node.rchild)
 
-    def post_order_traversal(self, node):
-        '''深度遍历之后序遍历'''
+    def post_order(self, node):
+        """
+        后序遍历
+        :param node: 待遍历树的根节点
+        :return: 遍历的结果
+        """
         if node == None:
             return
-        self.post_order_traversal(node.lchild)
-        self.post_order_traversal(node.rchild)
+        self.post_order(node.lchild)
+        self.post_order(node.rchild)
         print(node.elem, end=' ')
 
 
-if __name__ == '__main__':
+if __name__ == "__main__":
     tree = BinaryTree()
     for i in range(10):
         tree.add(i)
-    tree.breadth_first_traversal()
+    tree.breadth_first_search()
 
     print()
-    tree.preorder_traversal(tree.root)
+    tree.preorder(tree.root)
     print()
-    tree.in_order_traversal(tree.root)
+    tree.inorder(tree.root)
     print()
-    tree.post_order_traversal(tree.root)
+    tree.post_order(tree.root)
 
 
 
