@@ -3,7 +3,7 @@
 # @Time    : 2019/12/3 15:18
 # @Author  : Jack
 class Heap(object):
-    """heap and heap sorting"""
+    """heap and its basic operations"""
     def __init__(self, data=None):
         # data: 给定堆，可能为空，也可为一个有数据的堆。
         if data:
@@ -69,6 +69,8 @@ class Heap(object):
     @property
     def heap(self):
         return self._heap[1:self._ind_last+1]
+
+
 
 
 if __name__ == "__main__":
