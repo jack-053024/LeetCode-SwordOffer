@@ -1,33 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="8c4812b9-5060-4a8a-9f8e-dd5845bc0bd8" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Algorithm_DataStructrue/01-single_list.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Algorithm_DataStructrue/02-double_linked_list.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Algorithm_DataStructrue/03-single_cycle_list.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Algorithm_DataStructrue/04-stack.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Algorithm_DataStructrue/05-queue.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Algorithm_DataStructrue/06-deque.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Algorithm_DataStructrue/07-bubble_sort.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Algorithm_DataStructrue/08-selection_sort.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Algorithm_DataStructrue/09-insertion_sort.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Algorithm_DataStructrue/10-shell_sort.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Algorithm_DataStructrue/11-quick_sort.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Algorithm_DataStructrue/12-merge_sort.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Algorithm_DataStructrue/13-binary_search_recursive.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Algorithm_DataStructrue/14-binary_search.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Algorithm_DataStructrue/15-binary_tree.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Algorithm_DataStructrue/16-binary_search_tree.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Algorithm_DataStructrue/17-heap.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Algorithm_DataStructrue/18_heap_sort.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/BinarySearch/01-二分查找-简单非递归.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/BinarySearch/02-二分查找-简单递归.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/BinarySearch/03-二分查找-第一个等于target的元素.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/BinarySearch/04-二分查找-最后一个等于target的元素.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/BinarySearch/05-二分查找-第一个大于等于target的元素.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/BinarySearch/06-二分查找-最后一个小于等于target的元素.py" beforeDir="false" />
-    </list>
+    <list default="true" id="8c4812b9-5060-4a8a-9f8e-dd5845bc0bd8" name="Default" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -404,7 +378,7 @@
       <workItem from="1576933810085" duration="8793000" />
       <workItem from="1576994384923" duration="1343000" />
       <workItem from="1577029322893" duration="2248000" />
-      <workItem from="1577089935875" duration="2005000" />
+      <workItem from="1577089935875" duration="2311000" />
     </task>
     <servers />
   </component>
